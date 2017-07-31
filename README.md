@@ -9,3 +9,7 @@ gsettings set com.canonical.Unity.Launcher launcher-position Bottom
 ```
 alias update='sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y'
 ```
+Read and execute updated .bashrc:
+```
+source ~/.bashrc
+```
