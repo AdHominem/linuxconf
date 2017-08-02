@@ -17,4 +17,4 @@ Compress the size of a PDF:
 ```
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=cv.pdf CVNotenspiegel.pdf
 ```
-where '-dPDFSETTINGS' determines the quality.
+where `-dPDFSETTINGS` determines the quality.
