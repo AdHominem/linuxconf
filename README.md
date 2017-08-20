@@ -19,7 +19,7 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -
 ```
 where `-dPDFSETTINGS` determines the quality.
 
-Download an entire website:
+.bashrc alias for downloading an entire website:
 ```
-wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains website.org --no-parent www.website.org
+alias download='wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains website.org --no-parent'
 ```
