@@ -21,5 +21,5 @@ where `-dPDFSETTINGS` determines the quality.
 
 .bashrc alias for downloading an entire website:
 ```
-alias download='wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains website.org --no-parent'
+alias download='wget --limit-rate=200k --recursive --no-clobber --page-requisites --html-extension --convert-links --no-parent --random-wait -e robots=off -U mozilla'
 ```
